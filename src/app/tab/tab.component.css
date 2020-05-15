@@ -1,0 +1,24 @@
+.tab {
+    width: 12%;
+    height: 50px;
+
+    /*These rules are associated with tab aesthetics.*/
+    border-radius: 3px;
+    border: solid 4px #6dd400;
+    background-color: #000000;
+
+    /*These are responsible for text positioning.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*This is for displaying tabs side by side. 
+    Should be property of container.*/
+    float: left;
+}
+
+.tab-text {
+    font-family: Charter;
+    font-size: larger;
+    color: #6dd400;
+}
