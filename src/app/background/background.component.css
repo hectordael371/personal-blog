@@ -1,0 +1,93 @@
+/*<--------Background-------->*/
+.background {
+    /* Dimensionality */
+    width: 100%;
+    height: 50vh;
+    
+    background-color: black;
+
+    /* Positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image {
+    /* Dimensionality */
+    width: 50%;
+    height: 50vh;
+
+    /* Positioning and Imagery  */
+    background-position: center;
+    background-image: url(../pictures/unnamed.jpg);
+}
+/*<--------End Background-------->*/
+
+/*<--------Quote-------->*/
+.quote {
+    /* Dimensionality */
+    width: auto;
+    height: auto;
+
+    /* Typography */
+    font-family: Charter;
+    font-style: italic;
+    color: #6dd400;
+    
+    /* Alignment  */
+    justify-content: center;
+    text-align: center;
+
+    /* Positioning  */
+    position: absolute;
+    left: 78%;
+    top: 40%;
+}
+
+/* These text-styles are used in the quote text. */
+#text-style-1 {
+    /* Dimensionality */
+    font-weight: bold;
+    color: white;
+}
+
+/* Quote Citation */
+#text-style-2 {
+    /* Positioning */
+    display: flex;
+    float: right;
+
+    /* Aesthetics */
+    color: white;
+}
+/*<--------End Quote-------->*/
+
+/*<--------Synopsis-------->*/
+.description {
+    /* Dimensionality */
+    width: auto;
+    height: auto;
+    background-color: black;
+
+    /* Typography */
+    font-family: Charter;
+    font-size: small;
+    color: white;
+
+    /* Alignment */
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+
+    /* Positioning */
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+#title {
+    /* Aesthetics */
+    color: #6dd400;
+    font-size: 24px;
+}
+/*<--------End Synopsis-------->*/
