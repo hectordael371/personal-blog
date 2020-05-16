@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TabComponent } from './tab/tab.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { BackgroundComponent } from './background/background.component';
+import { ProfileContainerComponent } from './profile-container/profile-container.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TabComponent,
     NavBarComponent,
-    BackgroundComponent
+    BackgroundComponent,
+    ProfileContainerComponent
   ],
   imports: [
     BrowserModule,

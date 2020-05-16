@@ -1,0 +1,51 @@
+.container {
+    /* Dimensionality */
+    width: auto;
+    height: auto;
+
+    /* Alignment */
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* Positioning */
+    position: relative;
+    top: -40px;
+}
+
+#profile-picture {
+    /* Dimensionality */
+    width: 130px;
+    height: 130px;
+
+    /* Alignment */
+    display: inline-block;
+
+    /* Aesthetics */
+    border-radius: 100%;
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.5);
+
+    /* Image Positioning */
+    background-size: cover;
+    background-position-y: 25%;
+    background-image: url('../pictures/IMG_0348.JPG'); 
+}
+
+/* <--------Text--------> */
+.text-container {
+    margin-top: 10px;
+
+    font-family: Charter;
+    color: #6dd400;
+}
+
+#name {
+    color: black;
+    font-weight: 800;
+}
+
+#paragraph {
+    font-size: 15px;
+}
+/* <--------End Text--------> */
